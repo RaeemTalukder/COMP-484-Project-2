@@ -159,7 +159,7 @@ function playGif(gif, type, duration) {
   // change image
   pet.attr("src", "images/" + gif);
 
-
+//JQUERY 2 .animate()
 //move pet up and down for bounce animation//
   if (type === "bounce") {
     pet.animate({ top: "-40px" }, 150)
