@@ -140,7 +140,6 @@ function checkAndUpdatePetInfoInHtml() {
   document.querySelector(".happiness").textContent = pet_info.happiness;
   document.querySelector(".energy").textContent = pet_info.energy;
 
-  document.querySelector(".energy-fill").style.width = pet_info.energy + "%";
 
   updatePetAppearance();
 }
