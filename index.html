@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RIP CLUB PENGUIN</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <main>
+      <section class="name-section">
+     <input type="text" class="name-input" placeholder="Enter your pet name and press Enter">
+     </section>
+       <section class="top-section">
+
+    <div class="pet-image-container">
+      <img class="pet-image" src="images/puffle.jpg" alt="Your pet image">
+    </div>
+    <!-- Dashboard to display pet stats -->
+    <div class="dashboard">
+      <div>Name: <strong><span class="name"></span></strong></div>
+      <div>Weight: <strong><span class="weight"></span> Pounds</strong></div>
+      <div>Happiness: <strong><span class="happiness"></span> Dopamine</strong></div>
+      <div>Energy: <strong><span class="energy"></span> Joules</strong></div>
+    </div>
+
+  </section>
+<!-- Buttons for actions -->
+  <section class="button-container">
+    <button class="treat-button">Treat</button>
+    <button class="play-button">Play</button>
+    <button class="exercise-button">Exercise</button>
+    <button class="sleep-button">Sleep</button>
+  </section>
+<!-- Cooldown bars for each action -->
+  <section class="cooldowns">
+    <div class="cooldown-bar"><div class="fill treat-fill"></div></div>
+    <div class="cooldown-bar"><div class="fill play-fill"></div></div>
+    <div class="cooldown-bar"><div class="fill exercise-fill"></div></div>
+    <div class="cooldown-bar"><div class="fill sleep-fill"></div></div>
+  </section>
+
+    </main>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+        <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+  </body>
+</html>
