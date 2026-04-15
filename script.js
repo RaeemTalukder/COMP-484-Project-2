@@ -5,6 +5,7 @@ $(function () {
   $('.play-button').click(clickedPlayButton);
   $('.exercise-button').click(clickedExerciseButton);
   $('.sleep-button').click(clickedSleepButton);
+  //JQuera 1 .data()
   //uses data to store cooldowns and busy state of pet to prevent animation and stat conflicts//
   $(".pet-image").data("busy", false);
   $(".pet-image").data("cooldowns", {});
