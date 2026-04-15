@@ -57,18 +57,6 @@ main {
   position: relative;
 }
 
-/*MESSAGE BOX */
-.pet-message {
-  position: absolute;
-  bottom: 110%;
-  background: white;
-  border: 2px solid #333;
-  padding: 8px 12px;
-  border-radius: 10px;
-  font-size: 14px;
-  max-width: 180px;
-  display: none;
-}
 
 /* stat box*/
 .dashboard {
